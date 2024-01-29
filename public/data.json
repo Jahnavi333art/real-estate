@@ -15,6 +15,64 @@
         "url": "/Picture2.jpeg",
         "alt": "picture-2"
       }
+    ],
+    "services": [
+      {
+        "name": "Real Estate Services",
+        "description": "Explore our comprehensive real estate services tailored to meet your needs.",
+        "details": [
+          {
+            "label": "Property Listings",
+            "value": "Discover a diverse range of properties for sale or rent."
+          },
+
+          {
+            "label": "Buying Assistance",
+            "value": "Expert guidance through the process of purchasing your ideal property."
+          },
+
+          {
+            "label": "Selling Assistance",
+            "value": "Maximize the value of your property with our strategic selling services."
+          },
+
+          {
+            "label": "Market Analysis",
+            "value": "Stay informed with our in-depth market analysis and trends."
+          },
+
+          {
+            "label": "Property Management",
+            "value": "Hassle-free property management services for landlords."
+          }
+        ]
+      },
+      {
+        "name": "Construction Services",
+        "description": "Our construction services are designed to bring your vision to life.",
+        "details": [
+          {
+            "label": "Planning and Design",
+            "value": "Collaborate with our experts to plan and design your dream space."
+          },
+          {
+            "label": "Project Management",
+            "value": "Smooth execution and timely completion of your construction project."
+          },
+          {
+            "label": "Quality Craftsmanship",
+            "value": "Experience the finest in construction with our skilled and dedicated team."
+          },
+          {
+            "label": "Renovations and Additions",
+            "value": "Enhance your existing property with our renovation and addition services."
+          },
+          {
+            "label": "Sustainable Building",
+            "value": "Choose eco-friendly solutions with our sustainable building practices."
+          }
+        ]
+      }
     ]
   },
 

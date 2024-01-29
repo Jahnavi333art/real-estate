@@ -22,11 +22,18 @@ export type FAQType = {
   answer: LabelValueType[];
 };
 
+export type ServiceType = {
+  name: string;
+  description: string;
+  details: LabelValueType[];
+};
+
 export type PublicDataType = {
   homePage: {
     title: string;
     description: string;
     images: CarouselImageType[];
+    services: ServiceType[];
   };
   aboutPage: {
     title: string;

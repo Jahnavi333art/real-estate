@@ -1,3 +1,4 @@
+import { LabelValueType } from "@/hooks/usePublicData";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
@@ -72,21 +73,22 @@ export const TypographyLead = ({ children, className }: TypographyProps) => {
   );
 };
 
-export type TypographyListItemType = {
-  value: string;
-};
-
 export const TypographyList = ({
   items,
   className,
 }: {
-  items: TypographyListItemType[];
+  items: LabelValueType[];
   className?: string;
 }) => {
   return (
-    <ul className={cn("my-6 ml-6 list-disc [&>li]:mt-2", className)}>
+    <ul className={cn("ml-6 list-disc [&>li]:mt-2", className)}>
       {items.map((item, idx) => (
-        <li key={item.value + idx}>{item.value}</li>
+        <li key={item.value + idx}>
+          {item.label && (
+            <span className="font-semibold text-lg">{item.label} : </span>
+          )}
+          {item.value}
+        </li>
       ))}
     </ul>
   );

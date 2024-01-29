@@ -1,6 +1,11 @@
 import ImageCarousel from "@/components/ImageCarousel";
 import MaxWidthContainer from "@/components/MaxWidthContainer";
-import { TypographyH1 } from "@/components/Typography";
+import {
+  TypographyH1,
+  TypographyH2,
+  TypographyH3,
+  TypographyList,
+} from "@/components/Typography";
 import { buttonVariants } from "@/components/ui/button";
 import usePublicData from "@/hooks/usePublicData";
 import { cn } from "@/lib/utils";
@@ -25,15 +30,18 @@ const HomePage = async () => {
 
   return (
     <MaxWidthContainer>
-      <div className="py-10 overflow-x-hidden flex flex-col">
+      <div className="py-10 flex flex-col gap-6">
         <TypographyH1 className="text-center border-b font-bold pb-2">
           {homePage.title}
         </TypographyH1>
 
-        <div className="mt-6">
+        {/* Image Carousel */}
+        <div>
           <ImageCarousel images={homePage.images} height="55svh" />
         </div>
-        <p className="my-6 text-gray-900 text-lg text-justify">
+
+        {/* Description */}
+        <p className="text-gray-900 text-lg text-justify">
           {homePage.description}
         </p>
 
@@ -50,6 +58,18 @@ const HomePage = async () => {
             >
               <btn.Icon className="mr-2" size={16} /> {btn.label}
             </Link>
+          ))}
+        </div>
+
+        {/* Services */}
+        <TypographyH2 className="text-center mt-6">Services</TypographyH2>
+        <div className="flex flex-col gap-8">
+          {homePage.services.map((service) => (
+            <div key={service.name} className="flex flex-col gap-2">
+              <TypographyH3>{service.name}</TypographyH3>
+              <p className="text-muted-foreground">{service.description}</p>
+              <TypographyList items={service.details} />
+            </div>
           ))}
         </div>
       </div>
