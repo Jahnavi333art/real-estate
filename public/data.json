@@ -1,0 +1,97 @@
+{
+  "homePage": {
+    "title": "BM Real Estate & Constructions",
+    "description": "Welcome to BM Real Estate and Constructions, your trusted partner in ventures, real estate, and constructions. With a successful legacy spanning five years in Andhra Pradesh, we've now extended our commitment to excellence in Telangana. Located in Patancheruvu, just 15 minutes from Gachibowli, we bring you prime properties and construction solutions. Our foundation is built on faithful honesty, making your property our top priority. Explore a seamless blend of reliability and expertise with BM Real Estate and Constructions.",
+    "images": [
+      {
+        "url": "/Picture3.jpeg",
+        "alt": "picture-3"
+      },
+      {
+        "url": "/Picture1.jpeg",
+        "alt": "picture-1"
+      },
+      {
+        "url": "/Picture2.jpeg",
+        "alt": "picture-2"
+      }
+    ]
+  },
+
+  "aboutPage": {
+    "title": "About",
+    "profilePic": "/Profile.jpeg",
+    "details": [
+      {
+        "label": "Name",
+        "value": "Satyanarayana Bavisetty"
+      },
+      {
+        "label": "Location",
+        "value": "Pocharam, Patancheruvu"
+      },
+      {
+        "label": "Email",
+        "value": "sathyanarayana.bavisetty@gmail.com"
+      },
+      {
+        "label": "Contact",
+        "value": "8309406149 / 9848228018"
+      },
+      {
+        "label": "Company",
+        "value": "BM Real Estate & Constructions"
+      },
+      {
+        "label": "Industry",
+        "value": "Real Estate"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why Choose BM Real Estate and Constructions?",
+        "answer": [
+          {
+            "label": "Proven Legacy",
+            "value": "With five years of experience, we bring a wealth of expertise to the real estate landscape. Pocharam, Patancheruvu: Our prime location ensures easy access, just 15km from the bustling IT hub of Gachibowli."
+          },
+          {
+            "label": "Ventures and Sites Priority",
+            "value": "We prioritize ventures and prime sites, ensuring thoughtful planning before embarking on constructions."
+          },
+          {
+            "label": "Ideal for Software Engineers",
+            "value": "Tailored for the needs of software professionals, our properties provide a seamless commute to Gachibowli. Additionally, those working near Gachibowli or residing in the vicinity of Patancheruvu can enjoy the benefits of our strategic locations."
+          },
+          {
+            "label": "",
+            "value": "Choose BM Real Estate and Constructions for a distinctive blend of trust, expertise, and a proven track record. With five years of successful operations in Andhra Pradesh, we've brought our commitment to excellence to Telangana. Our prime location in Patancheruvu, just 15 minutes from Gachibowli, positions us as your ideal partner in ventures, real estate, and constructions."
+          },
+          {
+            "label": "",
+            "value": "What sets us apart is our unwavering dedication to faithful honesty, making your property needs our utmost priority. At BM Real Estate and Constructions, we don't just build structures; we craft lasting relationships. Our experienced team ensures transparent transactions, personalized solutions, and a seamless experience from start to finish."
+          },
+          {
+            "label": "",
+            "value": "When you choose BM Real Estate and Constructions, you're choosing reliability, integrity, and a partner committed to turning your real estate dreams into reality. Experience the difference with BM - where your satisfaction is our foundation."
+          }
+        ]
+      }
+    ]
+  },
+  "contactPage": {
+    "title": "Contact",
+    "description": "Get in touch with us to discuss your real estate and construction needs. We're here to turn your vision into reality.",
+    "googleMaps": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1008.3369821292224!2d78.24066152930226!3d17.54616401933593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s7J9WG6WR%2BJG!5e0!3m2!1sen!2sus!4v1706543086048!5m2!1sen!2sus",
+    "contactDetails": [
+      {
+        "label": "Phone",
+        "value": "8309406149"
+      },
+      {
+        "label": "Email",
+        "value": "sathyanarayana.bavisetty@gmail.com"
+      }
+    ]
+  }
+}
