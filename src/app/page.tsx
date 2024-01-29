@@ -30,7 +30,7 @@ const HomePage = async () => {
 
   return (
     <MaxWidthContainer>
-      <div className="py-10 flex flex-col gap-6">
+      <div className="py-10 flex flex-col gap-6 overflow-x-hidden sm:overflow-x-auto">
         <TypographyH1 className="text-center border-b font-bold pb-2">
           {homePage.title}
         </TypographyH1>
