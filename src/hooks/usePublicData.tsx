@@ -1,13 +1,12 @@
 import { CarouselImageType } from "@/components/ImageCarousel";
-
-const url =
-  process.env.NODE_ENV === "development"
-    ? "http://localhost:3000"
-    : `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`;
+import { promises as fs } from "fs";
 
 const usePublicData = async () => {
-  const response = await fetch(`${url}/data.json`, { cache: "no-store" });
-  const data = (await response.json()) as PublicDataType;
+  const response = await fs.readFile(
+    process.cwd() + "/public/data.json",
+    "utf-8"
+  );
+  const data = JSON.parse(response) as PublicDataType;
   return data;
 };
 
